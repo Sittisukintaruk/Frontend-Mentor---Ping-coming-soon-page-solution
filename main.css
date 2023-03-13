@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .filter-none {
+    filter: none;
+  }
+  .filter-Primary-Blue {
+    filter: invert(41%) sepia(79%) saturate(626%) hue-rotate(189deg)
+      brightness(101%) contrast(91%);
+  }
+
+  li:hover a > svg {
+    filter: invert(100%) sepia(0%) saturate(7481%) hue-rotate(83deg)
+      brightness(102%) contrast(103%);
+  } 
+}
